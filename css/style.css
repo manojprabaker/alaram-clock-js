@@ -1,0 +1,32 @@
+* {
+	padding:0;
+margin:0;
+box-sizing:border-box;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:15px;
+	
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); 
+
+}
+.container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.time {
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 0px 7px 1px;
+}
+.alarm {
+  margin: 2rem 0;
+}
+input {
+  padding: 5px;
+  font-size: 17px;
+  width: 20%;
+}
